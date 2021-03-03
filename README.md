@@ -85,6 +85,8 @@ To get a local copy up and running follow these simple steps.
 
 See the [open issues](https://github.com/paperboi/Kindle2Notion/issues) for a list of proposed features (and known issues).
 
+More robust data processing to be added, current date processing is far too rigid.
+pulling and pushing objects is abysmally slow. Seems that the current version of the code calls the API each time text needs to be added, instead of posting everything all at once, and makes too many uneeded calls to the API
 
 
 <!-- CONTRIBUTING -->
